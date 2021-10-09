@@ -26,6 +26,6 @@ func Run() {
 
 	seed.Load(server.DB)
 
-	server.Run(":4000")
+	server.Run(":8080")
 
 }
