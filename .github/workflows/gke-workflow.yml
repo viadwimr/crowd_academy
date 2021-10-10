@@ -10,7 +10,7 @@ env:
     DB_USERNAME: ${{ secrets.TEAM_NAME }}
     DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
     DB_HOST: ${{ secrets.DB_HOST }}
-    DB_PORT: 3307
+    DB_PORT: 3306
     DB_NAME: ${{ secrets.TEAM_NAME }}
     GKE_CLUSTER: backend-gke-cluster
     GKE_REGION: asia-east1
